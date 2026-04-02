@@ -1,7 +1,7 @@
 import { Client, Databases, Storage, Account } from 'appwrite';
 
-const ENDPOINT = 'https://nyc.cloud.appwrite.io/v1';
-const PROJECT_ID = '6866aa970031dffbf81b';
+const ENDPOINT = import.meta.env.VITE_APPWRITE_ENDPOINT || 'https://nyc.cloud.appwrite.io/v1';
+const PROJECT_ID = import.meta.env.VITE_APPWRITE_PROJECT_ID || '6866aa970031dffbf81b';
 
 // Export these for use in components/api
 export const DATABASE_ID = '6872c4370036255a902b';
