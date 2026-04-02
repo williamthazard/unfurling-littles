@@ -26,7 +26,7 @@ export const Footer = () => {
             <h4 className="font-heading font-semibold text-lg uppercase tracking-wide text-sage-100">Contact Us</h4>
             <div className="flex flex-col gap-2 text-sm text-sage-100">
               <p>Email: <a href="mailto:hello@unfurlinglittles.com" className="hover:text-gold-300 transition-colors">hello@unfurlinglittles.com</a></p>
-              <p>Location: Serving Austin, TX and surrounding areas.</p>
+              <p>Location: Serving Philadelphia, PA and surrounding areas.</p>
               <div className="mt-4 flex flex-col items-start gap-2">
                 <a href="#inquiry" className="btn-gold border border-gold-400">
                   Fill out our Inquiry Form
