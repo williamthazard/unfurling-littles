@@ -104,9 +104,52 @@ export const defaultContent: { pages: Record<string, any> } = {
         {
           "type": "Banner",
           "props": {
-            "title": "Trauma & ABA",
-            "body": "Understanding the intersection of behavioral intervention and trauma-informed care.",
-            "bgColor": "bg-sage-100"
+            "title": "Trauma-Informed ABA Care",
+            "body": "At Unfurling Littles LLC, we provide care with a deep realization of how trauma impacts individuals, families, and communities.",
+            "bgColor": "bg-sage-600",
+            "textColor": "text-white"
+          }
+        },
+        {
+          "type": "Banner",
+          "props": {
+            "title": "What is Trauma?",
+            "body": "Trauma happens when an event creates a feeling of being unsafe or helpless. It's not just the experience itself that matters; it's how a person is able to cope with it. For neurodivergent children, things like sensory overload, bullying, and social isolation can lead to increased susceptibility to trauma.",
+            "bgColor": "bg-white"
+          }
+        },
+        {
+          "type": "Banner",
+          "props": {
+            "title": "Impact on the Body",
+            "body": "Ongoing stress hormones can cause long-term issues: Anxiety, Depression, Digestive problems, Headaches, Muscle tension, Sleep issues, and trouble with focus. Having a caring, supportive person is key to lessening this impact.",
+            "bgColor": "bg-sage-50"
+          }
+        },
+        {
+          "type": "FAQ",
+          "props": {
+            "title": "The Four Key Assumptions",
+            "items": [
+              { "question": "Realization", "answer": "Understanding how trauma impacts mental health and recognizing how it may impede positive outcomes." },
+              { "question": "Recognition", "answer": "Identifying signs of trauma through methods like screening, assessment, and supervision." },
+              { "question": "Response", "answer": "Applying trauma-informed principles across the organization—adapting policies, procedures, and culture to create a safer environment." },
+              { "question": "Resisting Re-Traumatization", "answer": "Being aware of how interventions might unintentionally trigger or worsen traumatic experiences and working to avoid this." }
+            ]
+          }
+        },
+        {
+          "type": "FAQ",
+          "props": {
+            "title": "Our 6 Core Principles of Care",
+            "items": [
+              { "question": "Safety", "answer": "Therapeutic spaces offer sensory accommodations (lights off, noisecancellation, toys) and are set up as 'yes' spaces. Physical interventions are never used unless the child is in imminent danger." },
+              { "question": "Trustworthiness and Transparency", "answer": "Interventions are never done 'to' a child without them being aware. We use age-appropriate rationale and never use manipulation tactics." },
+              { "question": "Peer Support", "answer": "We value connecting humans with similar life experiences through special interest groups and caregiver meet-ups." },
+              { "question": "Collaboration and Mutuality", "answer": "Goals are selected based on the values of the child and carers. Children are treated as equals with a right to autonomy." },
+              { "question": "Empowerment", "answer": "Each child’s unique strengths and special interests are used in programming to increase confidence and follow their unique learning style." },
+              { "question": "Cultural & Gender Issues", "answer": "Gender-affirming language is used during all phases. Cultural differences are embraced with humility and curiosity through a diverse staff." }
+            ]
           }
         }
       ],
