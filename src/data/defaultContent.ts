@@ -104,52 +104,55 @@ export const defaultContent: { pages: Record<string, any> } = {
         {
           "type": "Banner",
           "props": {
-            "title": "Trauma-Informed ABA Care",
-            "body": "At Unfurling Littles LLC, we provide care with a deep realization of how trauma impacts individuals, families, and communities.",
-            "bgColor": "bg-sage-600",
-            "textColor": "text-white"
-          }
-        },
-        {
-          "type": "Banner",
-          "props": {
-            "title": "What is Trauma?",
-            "body": "Trauma happens when an event creates a feeling of being unsafe or helpless. It's not just the experience itself that matters; it's how a person is able to cope with it. For neurodivergent children, things like sensory overload, bullying, and social isolation can lead to increased susceptibility to trauma.",
+            "title": "Trauma-Informed Care",
+            "body": "At Unfurling Littles LLC we provide trauma informed care.\n\nWhat is Trauma?\nTrauma happens when an event creates a feeling of being unsafe or helpless. It can come from experiencing a situation personally, seeing someone else go through it, or being affected by a loved one's trauma. When traumatic experiences happen in childhood, they’re called adverse childhood experiences (ACEs). What’s important to know is that it’s not just the experience itself that matters; it’s how a person is able to cope with it. Trauma affects people differently—what’s no big deal to one person can be life changing for someone else.",
             "bgColor": "bg-white"
           }
         },
         {
           "type": "Banner",
           "props": {
-            "title": "Impact on the Body",
-            "body": "Ongoing stress hormones can cause long-term issues: Anxiety, Depression, Digestive problems, Headaches, Muscle tension, Sleep issues, and trouble with focus. Having a caring, supportive person is key to lessening this impact.",
-            "bgColor": "bg-sage-50"
+            "title": "Neurodivergence and Trauma",
+            "body": "It's estimated that over 70% of people around the world will go through at least one traumatic event in their lives, and about 31% will face four or more. Research shows that people who are Autistic or otherwise neurodivergent are 1.5 to 3 times more likely than others to experience mistreatment that leads to trauma. For neurodivergent children, things like sensory overload, bullying, social isolation, and differences in communication and self-advocacy can lead to increased susceptibility to trauma compared to their neurotypical peers. The science of behavior analysis is a powerful therapeutic tool that has historically been misused, leading to neurodivergent children being taught to mask their true selves in order to belong. Many Autistic adults who participated in Applied Behavior Analysis (ABA) as children have spoken out against the field sharing their “therapy” resulted in trauma.",
+            "bgColor": "bg-sage-100"
+          }
+        },
+        {
+          "type": "Banner",
+          "props": {
+            "title": "The Impact of Trauma on the Body",
+            "body": "When we face stressful situations, our bodies release two key stress hormones: cortisol and adrenaline. These hormones help us stay safe during dangerous times, but if they stay elevated for too long, they can cause a range of long-term issues, including: Anxiety, Depression, Digestive problems, Headaches, Muscle tension and pain, Heart issues like heart disease, heart attacks, high blood pressure, and strokes, Sleep problems, Weight gain, Trouble with memory and focus.\n\nStudies show that having a caring, supportive person in your life is one thing that can help lessen the impact of traumatic events.",
+            "bgColor": "bg-white"
+          }
+        },
+        {
+          "type": "Banner",
+          "props": {
+            "title": "Assumptions of Trauma-Informed Care",
+            "body": "Neurodivergent kids are more likely to experience at least one adverse childhood event (ACE) and may perceive and process these events differently from their neurotypical peers. At Unfurling Littles, we approach ABA programming with a trauma-informed perspective. This means that regardless of a child’s past experiences or what has been reported, all of our interventions are designed with the awareness that trauma could be a factor.\n\nSo, what does a Trauma-Informed Approach involve? It’s rooted in four key assumptions:\n\nRealization - Understanding how trauma impacts individuals, families, and communities, and recognizing how it may impact mental health and impede positive outcomes\nRecognition - Identifying signs of trauma through methods like screening, assessment, and supervision\nResponse - Applying trauma-informed principles across the organization—this means adapting policies, procedures, staffing, and culture to create a safer, more supportive environment\nResisting Re-Traumatization - Being aware of how policies, practices, and interventions might unintentionally trigger or worsen traumatic experiences for both staff and clients, and working to avoid this",
+            "bgColor": "bg-lavender-100"
           }
         },
         {
           "type": "FAQ",
           "props": {
-            "title": "The Four Key Assumptions",
+            "title": "How We Apply TIC at Unfurling Littles",
             "items": [
-              { "question": "Realization", "answer": "Understanding how trauma impacts mental health and recognizing how it may impede positive outcomes." },
-              { "question": "Recognition", "answer": "Identifying signs of trauma through methods like screening, assessment, and supervision." },
-              { "question": "Response", "answer": "Applying trauma-informed principles across the organization—adapting policies, procedures, and culture to create a safer environment." },
-              { "question": "Resisting Re-Traumatization", "answer": "Being aware of how interventions might unintentionally trigger or worsen traumatic experiences and working to avoid this." }
+              { "question": "Safety", "answer": "Therapeutic spaces offer non-contingent sensory accommodations (e.g., lights off, noise canceling headphones, shoes off, access to sensory toys, “crash” spaces, etc.). Therapeutic spaces are set up as “yes” spaces to increase safety and decrease the likelihood behavior correction is needed. Physical interventions are not used under any circumstance, unless the child is in imminent physical danger. All signs of assent withdrawal (i.e., spoken or unspoken) are always honored. Self-Advocacy is a goal for all clients, to increase the likelihood they will have the skills needed to stay safe in social interactions with familiar and unfamiliar people." },
+              { "question": "Trustworthiness and Transparency", "answer": "Interventions are never done “to” a child without the child being aware. When a decision needs to be made in session, it is labeled for the child with age-appropriate rationale. Therapists are honest in their interactions with clients, and do not use manipulation tactics to increase compliance. Unfurling Littles solicits feedback from caregivers, clients, and staff to informed organizational decision making." },
+              { "question": "Peer Support", "answer": "Unfurling Littles values connecting humans with other humans who are having a similar life experience. Special interests groups are available to autistic children who share similar values with one another. With consent, Unfurling Littles connects families to one another who are receiving services from Unfurling Littles through caregiver meet-ups and virtual support groups. A dedicated peer support specialist who is an individual with experience and expertise in neurodiversity affirming ABA who provides support, guidance, and assistance to other staff members." },
+              { "question": "Collaboration and Mutuality", "answer": "All goals are selected based on the values of the child and their carers. Children are treated as equals with a right to autonomy and respect. Feedback on programming is solicited on an ongoing basis to ensure that all stakeholders are in alignment with the goals and strategies." },
+              { "question": "Empowerment", "answer": "Programming centers the values of the child and family above all else. Special interests of the child are welcomed and incorporated into sessions. Each child’s unique strengths are used in programming to ensure that they are being taught in the way they learner, and to increase confidence in themselves." },
+              { "question": "Cultural, Historical, and Gender Issues", "answer": "Gender-affirming language is used during all phases of ABA support. Cultural differences are embraced with humility and curiosity. Unfurling Littles believes in have a diverse staff or varied races, genders, neurotypes, and walks of life." }
             ]
           }
         },
         {
-          "type": "FAQ",
+          "type": "Banner",
           "props": {
-            "title": "Our 6 Core Principles of Care",
-            "items": [
-              { "question": "Safety", "answer": "Therapeutic spaces offer sensory accommodations (lights off, noisecancellation, toys) and are set up as 'yes' spaces. Physical interventions are never used unless the child is in imminent danger." },
-              { "question": "Trustworthiness and Transparency", "answer": "Interventions are never done 'to' a child without them being aware. We use age-appropriate rationale and never use manipulation tactics." },
-              { "question": "Peer Support", "answer": "We value connecting humans with similar life experiences through special interest groups and caregiver meet-ups." },
-              { "question": "Collaboration and Mutuality", "answer": "Goals are selected based on the values of the child and carers. Children are treated as equals with a right to autonomy." },
-              { "question": "Empowerment", "answer": "Each child’s unique strengths and special interests are used in programming to increase confidence and follow their unique learning style." },
-              { "question": "Cultural & Gender Issues", "answer": "Gender-affirming language is used during all phases. Cultural differences are embraced with humility and curiosity through a diverse staff." }
-            ]
+            "title": "A Framework for Care",
+            "body": "We believe that Trauma-Informed Care is not a destination to be reached, but a decision-making framework with which to base all supportive programming.",
+            "bgColor": "bg-gold-100"
           }
         }
       ],
@@ -160,9 +163,41 @@ export const defaultContent: { pages: Record<string, any> } = {
         {
           "type": "Hero",
           "props": {
-            "heading": "Our Learning Community",
-            "body": "Located at 3502 Scotts Lane, our space is designed to be a safe, child-led environment for exploration and growth.",
+            "heading": "Our Space",
+            "body": "Our space is designed to feel like a second home; bright, cozy, and filled with opportunities for curiosity and connection. Every corner is intentionally created to honor children’s voices, nurture play, and invite exploration.",
             "heroImage": "https://static.wixstatic.com/media/dbc86f_de6659ca9aa0420fa2eb85f838637775~mv2.jpg"
+          }
+        },
+        {
+          "type": "Banner",
+          "props": {
+            "title": "A Shared Community",
+            "body": "Unlike many clinical settings, we intentionally chose a space without separate rooms. This open design increases visibility, fosters safety, and encourages a sense of togetherness; reminding children and families that they are part of a shared community.",
+            "bgColor": "bg-sage-100"
+          }
+        },
+        {
+          "type": "Banner",
+          "props": {
+            "title": "Inspired Learning",
+            "body": "Our main play and therapy room is set up with open-ended materials inspired by Reggio Emilia, Montessori, and Waldorf philosophies, so children can follow their own interests and spark new discoveries. Natural light, soft seating, and creative nooks make the environment feel welcoming for both learning and rest.",
+            "bgColor": "bg-white"
+          }
+        },
+        {
+          "type": "Banner",
+          "props": {
+            "title": "For Families Too",
+            "body": "Families are part of our community too. We offer a comfortable lounge area where caregivers can work, relax, or connect with one another while children are in session. For group programs, parents may choose to drop off or stay onsite; our space is flexible to meet everyone’s comfort level.",
+            "bgColor": "bg-sage-100"
+          }
+        },
+        {
+          "type": "Banner",
+          "props": {
+            "title": "Our Philosophy in Practice",
+            "body": "Whether a child is here for therapy, a connection group, or a community event, our space reflects our philosophy: connection, not compliance; joy, not pressure. It’s a place where children and families can unfurl, grow, and belong.\n\n3502 Scotts Lane Suite 404, Philadelphia PA 19129",
+            "bgColor": "bg-white"
           }
         }
       ],
