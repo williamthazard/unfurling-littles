@@ -1,0 +1,12 @@
+{
+    "projectId": "6866aa970031dffbf81b",
+    "projectName": "expo-rss",
+    "settings": {
+        "services": {
+            "databases": true,
+            "storage": true,
+            "users": true,
+            "auth": true
+        }
+    }
+}
